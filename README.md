@@ -1,11 +1,8 @@
 Pitangus
 =========
 
-Copyright (C) 2017 Pablo G. Gallardo & Silvio Clecio
+Copyright (c) 2017 Pablo G. Gallardo, Silvio Clecio, Waldir Paim
 
-Aviso
--------
-Os projetos microsped (https://github.com/silvioprog/microsped) e livrenfe 
-(https://github.com/pablogallardo/livrenfe) estão em processo de junção. Para
-se tornar um novo projeto. Este projeto terá como objetivo a emissão de documentos
-SPED.
+Aviso importante
+----------------
+**Os projetos [microsped](https://github.com/silvioprog/microsped) e [livrenfe](https://github.com/pablogallardo/livrenfe) estão em processo de junção. Elas se tornarão um único projeto com o objetivo de geração e emissão de documentos SPED.**
