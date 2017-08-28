@@ -21,3 +21,5 @@
 #define	PITANGUS_H
 
 /** TODO: incluir todos os headers que são parte da API do projeto */
+
+#endif
