@@ -18,7 +18,7 @@
  */
 
 #include "db.h"
-#include <pitangus/sped/errno.h>
+#include <pitangus/errno.h>
 #include <sqlite3.h>
 #include <stdio.h>
 #include <stdlib.h>

@@ -20,7 +20,7 @@
 #include "db_interface.h"
 #include "db.h"
 #include "livrenfe.h"
-#include <pitangus/sped/errno.h>
+#include <pitangus/errno.h>
 #include <pitangus/sped/libnfe.h>
 #include <sqlite3.h>
 #include <string.h>

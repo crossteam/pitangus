@@ -19,7 +19,7 @@
 
 #include "db_interface.h"
 #include "db.h"
-#include <pitangus/sped/errno.h>
+#include <pitangus/errno.h>
 #include <stdio.h>
 
 const char *create_sql = "CREATE TABLE paises (id_pais integer, nome varchar(60), CONSTRAINT pais_pk PRIMARY KEY (id_pais)); \

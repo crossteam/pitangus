@@ -1,0 +1,44 @@
+AC_PREREQ([2.69])
+AC_INIT([LivreNFE], [0.1.0], [https://github.com/crossteam/pitangus])
+AM_INIT_AUTOMAKE([pitangus], [2.6])
+AC_CONFIG_FILES([Makefile 
+		 src/Makefile 
+		 include/Makefile 
+		 include/pitangus/Makefile 
+		 include/pitangus/sped/Makefile 
+		 include/pitangus/utils/Makefile 
+		 src/sped/Makefile 
+		 src/utils/Makefile 
+		 src/pitangus/Makefile
+		 src/pitangus/icons/Makefile])
+
+AC_CONFIG_HEADERS([config.h])
+AM_INIT_AUTOMAKE([subdir-objects])
+AC_CONFIG_SRCDIR(src)
+AM_SILENT_RULES([yes])
+
+# Checks for programs.
+AC_PROG_CC
+
+# Checks for libraries.
+AC_CHECK_LIB([sqlite3], [main])
+
+AC_CONFIG_MACRO_DIR(m4)
+
+# Checks for header files.
+AC_CHECK_HEADERS([stdlib.h string.h sqlite3.h])
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_CHECK_HEADER_STDBOOL
+AC_TYPE_SIZE_T
+
+# Checks for library functions.
+AC_FUNC_MALLOC
+AC_CHECK_FUNCS([mkdir strdup])
+
+LT_INIT
+AM_ENABLE_SHARED
+AC_ENABLE_SHARED
+LT_OUTPUT
+
+AC_OUTPUT

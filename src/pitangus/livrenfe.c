@@ -21,7 +21,7 @@
 #include "lnfe_window.h"
 #include "nfe_manager.h"
 #include "db_interface.h"
-#include <pitanugs/errno.h>
+#include <pitangus/errno.h>
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>

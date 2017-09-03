@@ -1,2 +1,1 @@
-SUBDIRS = .
-include_HEADERS = microutils.h
+include_HEADERS = utils.h

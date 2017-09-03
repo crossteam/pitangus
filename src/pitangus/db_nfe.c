@@ -20,7 +20,7 @@
 #include "db.h"
 #include <pitangus/sped/nfe.h>
 #include <pitangus/sped/libnfe.h>
-#include <pitangus/sped/errno.h>
+#include <pitangus/errno.h>
 #include <pitangus/utils/utils.h>
 #include <gtk/gtk.h>
 #include <sqlite3.h>

@@ -1,0 +1,1 @@
+SUBDIRS = sped pitangus utils

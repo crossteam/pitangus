@@ -22,7 +22,7 @@
 #include "db_interface.h"
 #include "gtk_common.h"
 #include <pitangus/utils/utils.h>
-#include <pitangus/sped/errno.h>
+#include <pitangus/errno.h>
 #include <pitangus/sped/nfe.h>
 #include <pitangus/sped/libnfe.h>
 #include <gtk/gtk.h>

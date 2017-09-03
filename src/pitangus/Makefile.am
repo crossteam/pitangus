@@ -1,18 +1,18 @@
-SUBDIRS = libnfe icons
+SUBDIRS = icons
 AM_CFLAGS = -I../include -I$(top_srcdir)/include `pkg-config --cflags gtk+-3.0`\
     	`xml2-config --cflags` `pkg-config --cflags xmlsec1-openssl`\
        	`curl-config --cflags`
 AM_LDFLAGS = -L/usr/local/lib -Llibnfe -lnfe -lsqlite3 -lssl -lcrypto -lp11 \
 	`xml2-config --libs` `pkg-config --libs gtk+-3.0` \
 	`pkg-config --libs xmlsec1-openssl` `curl-config --libs`
-bin_PROGRAMS = livrenfe
-livrenfe_SOURCES = main.c db.c db_create.c db_init.c livrenfe.c lnfe_window.c \
+bin_PROGRAMS = pitangus 
+pitangus_SOURCES = main.c db.c db_create.c db_init.c livrenfe.c lnfe_window.c \
 		   resources.c  db_nfe.c nfe_manager.c item_manager.c \
 		   crypto_interface.c \
 		   db_prefs.c emitente_manager.c sefaz_response.c \
 		   prefs.c prefs_dialog.c gtk_common.c
 
-livrenfe_LDADD = libnfe/libnfe.la
+pitangus_LDADD = ../sped/libpitangussped.la ../utils/libpitangusutils.la
 
 
 resources.c: livrenfe.gresource.xml window.ui nfe_manager.ui item_manager.ui \

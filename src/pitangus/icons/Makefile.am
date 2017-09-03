@@ -1,4 +1,4 @@
-iconsdir = $(datadir)/icons
+iconsdir = $(datadir)/pitangus/icons
 
 nobase_dist_icons_DATA = \
 	livrenfe.png

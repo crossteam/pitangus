@@ -21,7 +21,7 @@
 #define	ITEM_MANAGER_H
 
 #include "nfe_manager.h"
-#include <pitanugs/sped/libnfe.h>
+#include <pitangus/sped/libnfe.h>
 #include <gtk/gtk.h>
 
 #define ITEM_MANAGER_TYPE	(item_manager_get_type())
