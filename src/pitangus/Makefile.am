@@ -2,7 +2,7 @@ SUBDIRS = icons
 AM_CFLAGS = -I../include -I$(top_srcdir)/include `pkg-config --cflags gtk+-3.0`\
     	`xml2-config --cflags` `pkg-config --cflags xmlsec1-openssl`\
        	`curl-config --cflags`
-AM_LDFLAGS = -L/usr/local/lib -Llibnfe -lnfe -lsqlite3 -lssl -lcrypto -lp11 \
+AM_LDFLAGS = -L/usr/local/lib -lsqlite3 -lssl -lcrypto -lp11 \
 	`xml2-config --libs` `pkg-config --libs gtk+-3.0` \
 	`pkg-config --libs xmlsec1-openssl` `curl-config --libs`
 bin_PROGRAMS = pitangus 
