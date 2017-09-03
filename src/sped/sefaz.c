@@ -1,28 +1,28 @@
 /* Copyright (c) 2016, 2017 Pablo G. Gallardo <pggllrd@gmail.com>
  *
- * This file is part of LivreNFE.
+ * This file is part of Pitangus.
  * 
- * LivreNFE is free software: you can redistribute it and/or modify
+ * Pitangus is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * LivreNFE is distributed in the hope that it will be useful,
+ * Pitangus is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License 
- * along with LivreNFE.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Pitangus.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
-#include <libnfe/sefaz.h>
-#include <libnfe/libnfe.h>
+#include <pitangus/sped/sefaz.h>
+#include <pitangus/sped/libnfe.h>
 #include "send.h"
 #include "xml.h"
-#include <libnfe/gen_xml.h>
-#include <libnfe/errno.h>
+#include <pitangus/sped/gen_xml.h>
+#include <pitangus/sped/errno.h>
 #include <libxml/parser.h>
 #include <openssl/x509.h>
 #include <openssl/evp.h>

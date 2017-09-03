@@ -1,19 +1,19 @@
 /* Copyright (c) 2016, 2017 Pablo G. Gallardo <pggllrd@gmail.com>
  *
- * This file is part of LivreNFE.
+ * This file is part of Pitangus.
  *
- * LivreNFE is free software: you can redistribute it and/or modify
+ * Pitangus is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * LivreNFE is distributed in the hope that it will be useful,
+ * Pitangus is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with LivreNFE.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Pitangus.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
 #ifndef	LIVRENFE_H
@@ -26,11 +26,11 @@
 #define	VERSION_COUNTER		1
 #define VERSION_TITLE		"Tartagal"
 #define LIVRENFE_COPYRIGHT	"© 2016, 2017 Pablo G. Gallardo"
-#define	LIVRENFE_FOLDER_NAME	"/.livrenfe"
-#define	LIVRENFE_DB		"/livrenfe.db"
+#define	LIVRENFE_FOLDER_NAME	"/.pitangus"
+#define	LIVRENFE_DB		"/pitangus.db"
 #define LIVRENFE_COMMENT	"Emissor Código Aberto de Notas Fiscais Eletrônicas"
-#define LIVRENFE_WEBSITE	"livrenfe.org"
-#define LIVRENFE_TITLE		"LivreNFE"
+#define LIVRENFE_WEBSITE	"https://github.com/crossteam/pitangus"
+#define LIVRENFE_TITLE		"Pitangus"
 
 #define CANCELAMENTO_TYPE	110111
 #define	CARTA_CORRECAO_TYPE	110110

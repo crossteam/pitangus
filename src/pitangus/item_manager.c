@@ -1,28 +1,28 @@
 /* Copyright (c) 2016, 2017 Pablo G. Gallardo <pggllrd@gmail.com>
  *
- * This file is part of LivreNFE.
+ * This file is part of Pitangus.
  *
- * LivreNFE is free software: you can redistribute it and/or modify
+ * Pitangus is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * LivreNFE is distributed in the hope that it will be useful,
+ * Pitangus is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with LivreNFE.  If not, see <http://www.gnu.org/licenses/>.
+ * along with Pitangus.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
 #include "item_manager.h"
 #include "nfe_manager.h"
-#include "libnfe/utils.h"
+#include <pitangus/utils/utils.h>
 #include "gtk_common.h"
-#include <libnfe/errno.h>
-#include <libnfe/nfe.h>
+#include <pitangus/errno.h>
+#include <pitangus/sped/nfe.h>
 #include <gtk/gtk.h>
 #include <stdlib.h>
 
