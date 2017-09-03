@@ -19,7 +19,7 @@
 
 #include <pitangus/sped/nfe.h>
 #include <pitangus/sped/libnfe.h>
-#include "utils.h"
+#include <pitangus/utils/utils.h>
 #define _XOPEN_SOURCE
 #include <time.h>
 #include <stdlib.h>
