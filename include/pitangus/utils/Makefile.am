@@ -1,1 +1,2 @@
-include_HEADERS = utils.h
+libpitangusutilsincdir = $(includedir)/pitangus/utils
+libpitangusutilsinc_HEADERS = utils.h
