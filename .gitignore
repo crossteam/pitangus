@@ -92,7 +92,35 @@ bower_components
 *.i*86
 *.x86_64
 *.hex
+pitangus
 
 # Debug files
 *.dSYM/
 *.su
+
+# GTK Resources
+resources.c
+
+# autoconf
+*.in
+.libs
+m4
+configure
+Makefile
+compile
+libtool
+.deps
+depcomp
+missing
+stamp-h1
+aclocal.m4
+config.guess
+config.h
+*.log
+ltmain.sh
+config.lt
+install.sh
+config.sub
+install-sh
+config.status
+autom4te.cache
