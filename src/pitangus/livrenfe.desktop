@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=0.1.0
-Type=Application
-Name=Pitangus
-Exec=pitangus
-Comment=O emissor código aberto de Notas Fiscais Eletrônicas
-Icon=pitangus
-Terminal=false
-Category=Utility;Office
