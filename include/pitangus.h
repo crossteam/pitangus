@@ -82,7 +82,7 @@ extern "C" {
 /* utilidades */
 
 /**
- * \brief Representa um tamanho inteiro em uma unidade de medida.
+ * \brief Retorna a unidade de medida de um tamanho inteiro.
  * \param tam Tamanho em bytes.
  * \return Unidade de medida.
  */
