@@ -25,7 +25,8 @@ char *ptg_agora_rfc2822() {
     len = strlen(buf);
     if (!(ret = malloc(len + sizeof(char))))
         return NULL;
-    memcpy(ret, buf, len);
+    if (!memcpy(ret, buf, len))
+        return NULL;
     ret[len] = '\0';
     return ret;
 }
