@@ -23,6 +23,7 @@
 #include <time.h>
 #include <math.h>
 
+/* TODO: testar no Windows e Android. */
 const char *ptg_tamanho(uint64_t size) {
     if (size == 0)
         return "B";
@@ -30,6 +31,7 @@ const char *ptg_tamanho(uint64_t size) {
     return sizes[(uint8_t) floor(log(size) / log(1000))];
 }
 
+/* TODO: testar no Windows e Android. */
 char *ptg_agora_rfc2822() {
     struct tm *tm;
     char *ret, buf[64];
