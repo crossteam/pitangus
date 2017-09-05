@@ -67,7 +67,6 @@ set(TST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/testes)
 # set de codigos da lib
 
 set(LIB_FILES
-        ${INC_DIR}/pitangus.h
         ${SRC_DIR}/ptg_utils.c)
 
 # set de codigos dos exemplos
