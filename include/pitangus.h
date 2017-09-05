@@ -50,6 +50,10 @@ extern "C" {
 # define __nonnull(params)
 #endif
 
+#ifndef __returns_nonnull
+#  define __returns_nonnull __attribute__((returns_nonnull))
+#endif
+
 #ifndef __variadic
 # ifdef _WIN32
 #  define __variadic
@@ -89,7 +93,7 @@ PTG_EXTERN const char *ptg_tamanho(uint64_t tam);
  * \return Data e hora atual no formato RFC 2822.
  * \warning O chamador é responsável em liberar a string alocada.
  */
-PTG_EXTERN char *ptg_agora_rfc2822() __malloc;
+PTG_EXTERN char *ptg_agora_rfc2822() __malloc __returns_nonnull;
 
 #ifdef __cplusplus
 }
