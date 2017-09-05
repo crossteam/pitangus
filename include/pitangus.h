@@ -50,11 +50,11 @@ extern "C" {
 # define __nonnull(params)
 #endif
 
-#ifndef __null_term
+#ifndef __variadic
 # ifdef _WIN32
-#  define __null_term
+#  define __variadic
 # else
-#  define __null_term __attribute__((__sentinel__))
+#  define __variadic __attribute__((__sentinel__))
 # endif
 #endif
 
@@ -71,12 +71,25 @@ extern "C" {
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#include <stdbool.h>
-#include <stdarg.h>
 #include <stdint.h>
-#include <stdio.h>
 
 #endif
+
+/* utilidades */
+
+/**
+ * \brief Representa um tamanho inteiro em uma unidade de medida.
+ * \param tam Tamanho em bytes.
+ * \return Unidade de medida.
+ */
+PTG_EXTERN const char *ptg_tamanho(uint64_t tam);
+
+/**
+ * \brief Retorna data e hora atual no formato RFC 2822.
+ * \return Data e hora atual no formato RFC 2822.
+ * \warning O chamador é responsável em liberar a string alocada.
+ */
+PTG_EXTERN char *ptg_agora_rfc2822() __malloc;
 
 #ifdef __cplusplus
 }
