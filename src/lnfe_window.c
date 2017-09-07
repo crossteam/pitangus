@@ -24,9 +24,9 @@
 #include "prefs_dialog.h"
 #include "livrenfe.h"
 #include "db_interface.h"
-#include <pitangus/sped/nfe.h>
-#include <pitangus/sped/libnfe.h>
-#include <pitangus/sped/gen_xml.h>
+#include <pitangus/nfe.h>
+#include <pitangus/libnfe.h>
+#include <pitangus/gen_xml.h>
 #include <stdlib.h>
 #include <gtk/gtk.h>
 #include <string.h>

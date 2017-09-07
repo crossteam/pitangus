@@ -23,9 +23,9 @@
 #include "livrenfe.h"
 #include "prefs.h"
 #include "crypto_interface.h"
-#include <pitangus/sped/nfe.h>
-#include <pitangus/sped/libnfe.h>
-#include <pitangus/sped/sefaz.h>
+#include <pitangus/nfe.h>
+#include <pitangus/libnfe.h>
+#include <pitangus/sefaz.h>
 #include <gtk/gtk.h>
 #include <openssl/evp.h>
 #include <openssl/x509.h>

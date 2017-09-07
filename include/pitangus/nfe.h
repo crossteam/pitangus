@@ -16,7 +16,7 @@
  * along with Pitangus.  If not, see <http://www.gnu.org/licenses/>.
  * */ 
 
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/libnfe.h>
 #include <time.h>
 
 /**

@@ -23,7 +23,7 @@
 #include "db_interface.h"
 #include "livrenfe.h"
 #include "gtk_common.h"
-#include <pitangus/utils/utils.h>
+#include <pitangus/utils.h>
 #include <libnfe/errno.h>
 #include <libnfe/nfe.h>
 #include <libnfe/libnfe.h>

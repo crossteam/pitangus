@@ -22,9 +22,9 @@
 #include "lnfe_window.h"
 #include "db_interface.h"
 #include "livrenfe.h"
-#include <pitangus/utils/utils.h>
-#include <pitangus/sped/nfe.h>
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/utils.h>
+#include <pitangus/nfe.h>
+#include <pitangus/libnfe.h>
 #include <gtk/gtk.h>
 #include <stdlib.h>
 #include <string.h>

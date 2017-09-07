@@ -20,7 +20,7 @@
 #ifndef	SEND_H
 #define	SEND_H
 
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/libnfe.h>
 #include <openssl/evp.h>
 #include <openssl/x509.h>
 

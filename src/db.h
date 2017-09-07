@@ -20,7 +20,7 @@
 #ifndef	DB_H
 #define	DB_H
 
-#include "pitangus/sped/libnfe.h"
+#include "pitangus/libnfe.h"
 #include <sqlite3.h>
 
 #define DB_VERSION	1

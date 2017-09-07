@@ -18,7 +18,7 @@
  */
 
 #include "sign.h"
-#include <pitangus/utils/utils.h>
+#include <pitangus/utils.h>
 #include "xml.h"
 #include <stdlib.h>
 #include <string.h>

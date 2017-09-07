@@ -18,10 +18,10 @@
 
 #include "db_interface.h"
 #include "db.h"
-#include <pitangus/sped/nfe.h>
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/nfe.h>
+#include <pitangus/libnfe.h>
 #include <pitangus/errno.h>
-#include <pitangus/utils/utils.h>
+#include <pitangus/utils.h>
 #include <gtk/gtk.h>
 #include <sqlite3.h>
 #include <stdio.h>

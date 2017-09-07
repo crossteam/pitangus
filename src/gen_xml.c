@@ -17,7 +17,7 @@
  *
  */
 
-#include <pitangus/sped/gen_xml.h>
+#include <pitangus/gen_xml.h>
 #include <pitangus/errno.h>
 #include "sign.h"
 #include <stdio.h>

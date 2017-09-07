@@ -20,7 +20,7 @@
 #define _XOPEN_SOURCE
 #define _GNU_SOURCE
 #define __USE_XOPEN
-#include <pitangus/utils/utils.h> 
+#include <pitangus/utils.h> 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

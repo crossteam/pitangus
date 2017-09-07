@@ -19,7 +19,7 @@
 
 #include "crypto_interface.h"
 #include "db_interface.h"
-#include <pitangus/sped/nfe.h>
+#include <pitangus/nfe.h>
 #include <pitangus/errno.h>
 #include <sys/types.h>
 #include <sys/stat.h>

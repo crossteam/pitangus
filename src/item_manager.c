@@ -19,10 +19,10 @@
 
 #include "item_manager.h"
 #include "nfe_manager.h"
-#include <pitangus/utils/utils.h>
+#include <pitangus/utils.h>
 #include "gtk_common.h"
 #include <pitangus/errno.h>
-#include <pitangus/sped/nfe.h>
+#include <pitangus/nfe.h>
 #include <gtk/gtk.h>
 #include <stdlib.h>
 

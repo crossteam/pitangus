@@ -29,7 +29,7 @@
  */
 #define	ID_PREFIX	"NFe"
 
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/libnfe.h>
 #include <openssl/x509.h>
 #include <openssl/evp.h>
 

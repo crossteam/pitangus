@@ -17,11 +17,11 @@
  *
  */
 
-#include <pitangus/sped/sefaz.h>
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/sefaz.h>
+#include <pitangus/libnfe.h>
 #include "send.h"
 #include "xml.h"
-#include <pitangus/sped/gen_xml.h>
+#include <pitangus/gen_xml.h>
 #include <pitangus/errno.h>
 #include <libxml/parser.h>
 #include <openssl/x509.h>

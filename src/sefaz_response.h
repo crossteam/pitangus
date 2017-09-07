@@ -21,7 +21,7 @@
 #define	SEFAZ_RESPONSE_H	
 
 #include "lnfe_window.h"
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/libnfe.h>
 #include <gtk/gtk.h>
 
 #define SEFAZ_RESPONSE_TYPE	(sefaz_response_get_type())

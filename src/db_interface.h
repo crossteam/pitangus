@@ -23,7 +23,7 @@
 #define DB_VERSION	1
 
 #include "livrenfe.h"
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/libnfe.h>
 #include <gtk/gtk.h>
 
 

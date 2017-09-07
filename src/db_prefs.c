@@ -21,7 +21,7 @@
 #include "db.h"
 #include "livrenfe.h"
 #include <pitangus/errno.h>
-#include <pitangus/sped/libnfe.h>
+#include <pitangus/libnfe.h>
 #include <sqlite3.h>
 #include <string.h>
 #include <stdlib.h>
