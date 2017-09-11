@@ -17,7 +17,7 @@
  *
  */
 
-#include "tool_pitnagus.h"
+#include "tool_pitangus.h"
 #include <pitangus/libsped.h> 
 #include <stdio.h>
 #include <gtk/gtk.h>

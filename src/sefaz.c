@@ -19,8 +19,8 @@
 
 #include <pitangus/sefaz.h>
 #include <pitangus/libsped.h>
-#include "tool_send.h"
-#include "tool_xml.h"
+#include "send.h"
+#include "xml.h"
 #include <pitangus/genxml.h>
 #include <pitangus/errno.h>
 #include <libxml/parser.h>

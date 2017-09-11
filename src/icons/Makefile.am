@@ -1,7 +1,7 @@
-iconsdir = $(datadir)/pitangus/icons
+iconsdir = $(datadir)/icons
 
 nobase_dist_icons_DATA = \
-	livrenfe.png
+	pitangus.png
 
 gtk_update_icon_cache = gtk-update-icon-cache -f -t $(iconsdir)
 

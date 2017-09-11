@@ -17,7 +17,7 @@
  *
  */
 
-#include "gtk_common.h"
+#include "tool_gtk_common.h"
 #include <pitangus/errno.h>
 #include <glib.h>
 #include <gtk/gtk.h>

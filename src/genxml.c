@@ -19,7 +19,7 @@
 
 #include <pitangus/genxml.h>
 #include <pitangus/errno.h>
-#include "tool_sign.h"
+#include "sign.h"
 #include <stdio.h>
 #include <string.h>
 #include <libxml/xmlwriter.h>

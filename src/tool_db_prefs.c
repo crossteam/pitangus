@@ -19,7 +19,7 @@
 
 #include "tool_db_interface.h"
 #include "tool_db.h"
-#include "livrenfe.h"
+#include "tool_pitangus.h"
 #include <pitangus/errno.h>
 #include <pitangus/libsped.h>
 #include <sqlite3.h>
