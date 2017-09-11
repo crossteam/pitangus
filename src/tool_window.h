@@ -20,7 +20,7 @@
 #ifndef	LIVRENFE_WINDOW_H
 #define	LIVRENFE_WINDOW_H
 
-#include "livrenfe.h"
+#include "tool_pitangus.h"
 #include <gtk/gtk.h>
 
 #define LIVRENFE_WINDOW_TYPE	(livrenfe_window_get_type())

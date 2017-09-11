@@ -20,9 +20,9 @@
 #ifndef	NFE_MANAGER_H
 #define	NFE_MANAGER_H
 
-#include "livrenfe.h"
-#include "lnfe_window.h"
-#include <pitangus/libnfe.h>
+#include "tool_pitangus.h"
+#include "tool_window.h"
+#include <pitangus/libsped.h>
 #include <gtk/gtk.h>
 
 #define NFE_MANAGER_TYPE	(nfe_manager_get_type())

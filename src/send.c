@@ -17,9 +17,9 @@
  */
 
 #include "send.h"
-#include <pitangus/libnfe.h>
+#include <pitangus/libsped.h>
 #include <pitangus/errno.h>
-#include <pitangus/gen_xml.h>
+#include <pitangus/genxml.h>
 #include <curl/curl.h>
 #include <openssl/evp.h>
 #include <openssl/ssl.h>

@@ -17,9 +17,9 @@
  *
  */
 
-#include <pitangus/gen_xml.h>
+#include <pitangus/genxml.h>
 #include <pitangus/errno.h>
-#include "sign.h"
+#include "tool_sign.h"
 #include <stdio.h>
 #include <string.h>
 #include <libxml/xmlwriter.h>

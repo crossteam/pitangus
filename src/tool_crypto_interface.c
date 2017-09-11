@@ -17,9 +17,9 @@
  *
  */
 
-#include "crypto_interface.h"
-#include "db_interface.h"
-#include <pitangus/nfe.h>
+#include "tool_crypto_interface.h"
+#include "tool_db_interface.h"
+#include <pitangus/sped.h>
 #include <pitangus/errno.h>
 #include <sys/types.h>
 #include <sys/stat.h>

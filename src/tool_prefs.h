@@ -20,7 +20,7 @@
 #ifndef	PREFS_H
 #define	PREFS_H
 
-#include "livrenfe.h"
+#include "tool_pitangus.h"
 
 extern void free_urls(URLS *u);
 

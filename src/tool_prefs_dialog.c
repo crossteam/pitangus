@@ -17,14 +17,14 @@
  *
  */
 
-#include "prefs_dialog.h"
-#include "prefs.h"
-#include "lnfe_window.h"
-#include "db_interface.h"
-#include "livrenfe.h"
+#include "tool_prefs_dialog.h"
+#include "tool_prefs.h"
+#include "tool_window.h"
+#include "tool_db_interface.h"
+#include "tool_pitangus.h"
 #include <pitangus/utils.h>
-#include <pitangus/nfe.h>
-#include <pitangus/libnfe.h>
+#include <pitangus/sped.h>
+#include <pitangus/libsped.h>
 #include <gtk/gtk.h>
 #include <stdlib.h>
 #include <string.h>
@@ -189,7 +189,7 @@ static void prefs_init(Prefs *p){
 static void prefs_class_init(PrefsClass *class){
 	G_OBJECT_CLASS (class)->dispose = prefs_dispose;
 	gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class),
-		"/br/com/lapagina/livrenfe/prefs_dialog.ui");
+		"/br/com/crossteam/pitangus/tool_prefs_dialog.ui");
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), 
 		Prefs, ambiente_p);
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), 

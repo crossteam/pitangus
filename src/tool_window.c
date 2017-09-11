@@ -17,16 +17,16 @@
  *
  */
 
-#include "lnfe_window.h"
-#include "nfe_manager.h"
-#include "emitente_manager.h"
-#include "sefaz_response.h"
-#include "prefs_dialog.h"
-#include "livrenfe.h"
-#include "db_interface.h"
-#include <pitangus/nfe.h>
-#include <pitangus/libnfe.h>
-#include <pitangus/gen_xml.h>
+#include "tool_window.h"
+#include "tool_nfe_manager.h"
+#include "tool_emitente_manager.h"
+#include "tool_sefaz_response.h"
+#include "tool_prefs_dialog.h"
+#include "tool_pitangus.h"
+#include "tool_db_interface.h"
+#include <pitangus/sped.h>
+#include <pitangus/libsped.h>
+#include <pitangus/genxml.h>
 #include <stdlib.h>
 #include <gtk/gtk.h>
 #include <string.h>
@@ -494,7 +494,7 @@ static void livrenfe_window_init(LivrenfeWindow *win){
 
 static void livrenfe_window_class_init(LivrenfeWindowClass *class){
 	gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS (class),
-			"/br/com/lapagina/livrenfe/window.ui");
+			"/br/com/crossteam/pitangus/tool_window.ui");
 
 	gtk_widget_class_bind_template_child(GTK_WIDGET_CLASS(class), LivrenfeWindow,
 		       	treeview);

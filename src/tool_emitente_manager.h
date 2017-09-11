@@ -20,7 +20,7 @@
 #ifndef	EMITENTE_MANAGER_H
 #define	EMITENTE_MANAGER_H
 
-#include "lnfe_window.h"
+#include "tool_window.h"
 #include <gtk/gtk.h>
 
 #define EMITENTE_MANAGER_TYPE	(emitente_manager_get_type())

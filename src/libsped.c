@@ -17,7 +17,7 @@
  *
  */
 
-#include <pitangus/libnfe.h> 
+#include <pitangus/libsped.h> 
 
 const char *SEFAZ_WSDL[] = {WSDL_RECEPCAO_EVENTO, WSDL_NFE_CONSULTA_CADASTRO,
 	WSDL_NFE_INUTILIZACAO, WSDL_NFE_CONSULTA_PROTOCOLO,

@@ -20,8 +20,8 @@
 #ifndef	ITEM_MANAGER_H
 #define	ITEM_MANAGER_H
 
-#include "nfe_manager.h"
-#include <pitangus/libnfe.h>
+#include "tool_nfe_manager.h"
+#include <pitangus/libsped.h>
 #include <gtk/gtk.h>
 
 #define ITEM_MANAGER_TYPE	(item_manager_get_type())

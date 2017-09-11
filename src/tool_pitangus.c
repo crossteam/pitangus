@@ -17,10 +17,10 @@
  *
  */
 
-#include "livrenfe.h"
-#include "lnfe_window.h"
-#include "nfe_manager.h"
-#include "db_interface.h"
+#include "tool_pitangus.h"
+#include "tool_window.h"
+#include "tool_nfe_manager.h"
+#include "tool_db_interface.h"
 #include <pitangus/errno.h>
 #include <string.h>
 #include <stdio.h>

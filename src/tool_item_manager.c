@@ -17,12 +17,12 @@
  *
  */
 
-#include "item_manager.h"
-#include "nfe_manager.h"
+#include "tool_item_manager.h"
+#include "tool_nfe_manager.h"
 #include <pitangus/utils.h>
-#include "gtk_common.h"
+#include "tool_gtk_common.h"
 #include <pitangus/errno.h>
-#include <pitangus/nfe.h>
+#include <pitangus/sped.h>
 #include <gtk/gtk.h>
 #include <stdlib.h>
 
@@ -457,7 +457,7 @@ static void item_manager_class_init(ItemManagerClass *class){
 	G_OBJECT_CLASS (class)->dispose = item_manager_dispose;
 
 	gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class),
-                                               "/br/com/lapagina/livrenfe/item_manager.ui");
+                                               "/br/com/crossteam/pitangus/tool_item_manager.ui");
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), ItemManager,
 		       	icms_regime);
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), ItemManager,

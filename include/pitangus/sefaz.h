@@ -20,7 +20,7 @@
 #ifndef	SEFAZ_H
 #define	SEFAZ_H
 
-#include <pitangus/libnfe.h>
+#include <pitangus/libsped.h>
 #include <openssl/x509.h>
 #include <openssl/evp.h>
 

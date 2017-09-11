@@ -17,16 +17,16 @@
  *
  */
 
-#include "lnfe_window.h"
-#include "nfe_manager.h"
-#include "item_manager.h"
-#include "db_interface.h"
-#include "livrenfe.h"
-#include "gtk_common.h"
+#include "tool_window.h"
+#include "tool_nfe_manager.h"
+#include "tool_item_manager.h"
+#include "tool_db_interface.h"
+#include "tool_pitangus.h"
+#include "tool_gtk_common.h"
 #include <pitangus/utils.h>
-#include <libnfe/errno.h>
-#include <libnfe/nfe.h>
-#include <libnfe/libnfe.h>
+#include <pitangus/errno.h>
+#include <pitangus/sped.h>
+#include <pitangus/libsped.h>
 #include <gtk/gtk.h>
 #include <string.h>
 #include <stdlib.h>
@@ -598,7 +598,7 @@ static void nfe_manager_class_init(NFEManagerClass *class){
 	G_OBJECT_CLASS (class)->dispose = nfe_manager_dispose;
 
 	gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class),
-                                               "/br/com/lapagina/livrenfe/nfe_manager.ui");
+                                               "/br/com/crossteam/pitangus/tool_nfe_manager.ui");
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), NFEManager,
 		       	novo_item);
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), NFEManager,

@@ -17,11 +17,11 @@
  *
  */
 
-#include "db_interface.h"
-#include "db.h"
+#include "tool_db_interface.h"
+#include "tool_db.h"
 #include "livrenfe.h"
 #include <pitangus/errno.h>
-#include <pitangus/libnfe.h>
+#include <pitangus/libsped.h>
 #include <sqlite3.h>
 #include <string.h>
 #include <stdlib.h>

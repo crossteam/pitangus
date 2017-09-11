@@ -17,7 +17,7 @@
  *
  */
 
-#include "db.h"
+#include "tool_db.h"
 #include <pitangus/errno.h>
 #include <sqlite3.h>
 #include <stdio.h>

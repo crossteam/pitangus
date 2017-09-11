@@ -17,14 +17,14 @@
  *
  */
 
-#include "sefaz_response.h"
-#include "lnfe_window.h"
-#include "db_interface.h"
-#include "livrenfe.h"
-#include "prefs.h"
-#include "crypto_interface.h"
-#include <pitangus/nfe.h>
-#include <pitangus/libnfe.h>
+#include "tool_sefaz_response.h"
+#include "tool_window.h"
+#include "tool_db_interface.h"
+#include "tool_pitangus.h"
+#include "tool_prefs.h"
+#include "tool_crypto_interface.h"
+#include <pitangus/sped.h>
+#include <pitangus/libsped.h>
 #include <pitangus/sefaz.h>
 #include <gtk/gtk.h>
 #include <openssl/evp.h>
@@ -154,7 +154,7 @@ static void sefaz_response_class_init(SefazResponseClass *class){
 	G_OBJECT_CLASS (class)->dispose = sefaz_response_dispose;
 
 	gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class),
-                               "/br/com/lapagina/livrenfe/sefaz_response.ui");
+                               "/br/com/crossteam/pitangus/tool_sefaz_response.ui");
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), 
 		SefazResponse, spinner);
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), 

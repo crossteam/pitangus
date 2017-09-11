@@ -20,8 +20,8 @@
 #ifndef	SEFAZ_RESPONSE_H	
 #define	SEFAZ_RESPONSE_H	
 
-#include "lnfe_window.h"
-#include <pitangus/libnfe.h>
+#include "tool_window.h"
+#include <pitangus/libsped.h>
 #include <gtk/gtk.h>
 
 #define SEFAZ_RESPONSE_TYPE	(sefaz_response_get_type())

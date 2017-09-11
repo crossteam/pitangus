@@ -17,8 +17,8 @@
  *
  */
 
-#include "prefs.h"
-#include "livrenfe.h"
+#include "tool_prefs.h"
+#include "tool_pitangus.h"
 #include <stdlib.h>
 #include <string.h>
 

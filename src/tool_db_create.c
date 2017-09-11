@@ -17,8 +17,8 @@
  *
  */
 
-#include "db_interface.h"
-#include "db.h"
+#include "tool_db_interface.h"
+#include "tool_db.h"
 #include <pitangus/errno.h>
 #include <stdio.h>
 

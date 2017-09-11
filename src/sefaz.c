@@ -18,10 +18,10 @@
  */
 
 #include <pitangus/sefaz.h>
-#include <pitangus/libnfe.h>
-#include "send.h"
-#include "xml.h"
-#include <pitangus/gen_xml.h>
+#include <pitangus/libsped.h>
+#include "tool_send.h"
+#include "tool_xml.h"
+#include <pitangus/genxml.h>
 #include <pitangus/errno.h>
 #include <libxml/parser.h>
 #include <openssl/x509.h>

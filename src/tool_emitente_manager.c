@@ -17,14 +17,14 @@
  *
  */
 
-#include "emitente_manager.h"
-#include "lnfe_window.h"
-#include "db_interface.h"
-#include "gtk_common.h"
+#include "tool_emitente_manager.h"
+#include "tool_window.h"
+#include "tool_db_interface.h"
+#include "tool_gtk_common.h"
 #include <pitangus/utils.h>
 #include <pitangus/errno.h>
-#include <pitangus/nfe.h>
-#include <pitangus/libnfe.h>
+#include <pitangus/sped.h>
+#include <pitangus/libsped.h>
 #include <gtk/gtk.h>
 #include <stdlib.h>
 
@@ -213,7 +213,7 @@ static void emitente_manager_init(EmitenteManager *eman){
 static void emitente_manager_class_init(EmitenteManagerClass *class){
 	G_OBJECT_CLASS (class)->dispose = emitente_manager_dispose;
 	gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class),
-		"/br/com/lapagina/livrenfe/emitente_manager.ui");
+		"/br/com/crossteam/pitangus/tool/emitente_manager.ui");
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), 
 		EmitenteManager, cnpj);
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), 

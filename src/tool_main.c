@@ -17,8 +17,8 @@
  *
  */
 
-#include "livrenfe.h"
-#include <pitangus/libnfe.h> 
+#include "tool_pitnagus.h"
+#include <pitangus/libsped.h> 
 #include <stdio.h>
 #include <gtk/gtk.h>
 

@@ -20,7 +20,7 @@
 #ifndef	PREFS_DIALOG_H
 #define	PREFS_DIALOG_H
 
-#include "lnfe_window.h"
+#include "tool_window.h"
 #include <gtk/gtk.h>
 
 #define PREFS_TYPE	(prefs_get_type())

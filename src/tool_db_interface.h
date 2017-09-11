@@ -22,8 +22,8 @@
 
 #define DB_VERSION	1
 
-#include "livrenfe.h"
-#include <pitangus/libnfe.h>
+#include "tool_pitangus.h"
+#include <pitangus/libsped.h>
 #include <gtk/gtk.h>
 
 
