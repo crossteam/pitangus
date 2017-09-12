@@ -485,7 +485,7 @@ static void livrenfe_window_init(LivrenfeWindow *win){
 
 	GdkPixbuf *icon;
 	GError *error = NULL;
-	icon = gdk_pixbuf_new_from_resource("/br/com/lapagina/livrenfe/icons/livrenfe.png",
+	icon = gdk_pixbuf_new_from_resource("/br/com/crossteam/pitangus/icons/pitangus.png",
 		&error);
 	gtk_window_set_default_icon(icon);
 	gtk_window_set_icon(GTK_WINDOW(win), icon);
