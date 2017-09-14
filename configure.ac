@@ -5,12 +5,7 @@ AC_CONFIG_FILES([Makefile
 		 src/Makefile 
 		 include/Makefile 
 		 include/pitangus/Makefile 
-		 include/pitangus/sped/Makefile 
-		 include/pitangus/utils/Makefile 
-		 src/sped/Makefile 
-		 src/utils/Makefile 
-		 src/pitangus/Makefile
-		 src/pitangus/icons/Makefile])
+		 src/icons/Makefile])
 
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([subdir-objects])

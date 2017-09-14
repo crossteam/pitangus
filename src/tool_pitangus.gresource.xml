@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+	<gresource prefix="/br/com/crossteam/pitangus">
+    <file preprocess="xml-stripblanks">tool_window.ui</file>
+    <file preprocess="xml-stripblanks">tool_nfe_manager.ui</file>
+    <file preprocess="xml-stripblanks">tool_item_manager.ui</file>
+    <file preprocess="xml-stripblanks">tool_emitente_manager.ui</file>
+    <file preprocess="xml-stripblanks">tool_sefaz_response.ui</file>
+    <file preprocess="xml-stripblanks">tool_prefs_dialog.ui</file>
+    <file>icons/pitangus.png</file>
+  </gresource>
+</gresources>

@@ -92,7 +92,7 @@ bower_components
 *.i*86
 *.x86_64
 *.hex
-pitangus
+src/pitangus
 
 # Debug files
 *.dSYM/
