@@ -213,7 +213,7 @@ static void emitente_manager_init(EmitenteManager *eman){
 static void emitente_manager_class_init(EmitenteManagerClass *class){
 	G_OBJECT_CLASS (class)->dispose = emitente_manager_dispose;
 	gtk_widget_class_set_template_from_resource(GTK_WIDGET_CLASS(class),
-		"/br/com/crossteam/pitangus/tool/emitente_manager.ui");
+		"/br/com/crossteam/pitangus/tool_emitente_manager.ui");
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), 
 		EmitenteManager, cnpj);
 	gtk_widget_class_bind_template_child_private(GTK_WIDGET_CLASS(class), 
