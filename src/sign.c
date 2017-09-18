@@ -45,11 +45,15 @@ xmlSecKeyPtr load_key(EVP_PKEY *pKey, X509 *x509) {
 	xmlSecKeyPtr key = NULL;
 	xmlSecKeyDataPtr data;
 	xmlSecKeyDataPtr dataX509;
+	RSA *rsa = NULL;
 	int ret;
 
 	//get_private_key(&pKey, &x509, pwd);
 	if(pKey == NULL || x509 == NULL)
 		return NULL;
+	
+	rsa = EVP_PKEY_get1_RSA(pKey);
+	RSA_set_flags(rsa, RSA_FLAG_EXT_PKEY); //Marcar chave RSA como privada
 
 	data = xmlSecOpenSSLEvpKeyAdopt(pKey);
 	if(data == NULL) {
